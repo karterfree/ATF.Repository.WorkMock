@@ -1,0 +1,55 @@
+{
+  "Items":[
+    {
+      "Id":"492a3290-6a17-49b2-b916-2995ac193a3b",
+      "SchemaName":"Order",
+      "Content":{
+        "Id":"492a3290-6a17-49b2-b916-2995ac193a3b",
+        "Number":"ORD-12345",
+        "Account":"59897641-873f-49ce-9adf-ba6695f9c0da",
+        "Date":"2023-09-08T02:00:00.000"
+      },
+      "Path":"Order"
+    },
+    {
+      "Id":"59897641-873f-49ce-9adf-ba6695f9c0da",
+      "SchemaName":"Account",
+      "Content":{
+        "Id":"59897641-873f-49ce-9adf-ba6695f9c0da",
+        "Name":"Account name",
+        "Owner":"69897641-873f-49ce-9adf-ba6695f9c0da"
+      },
+      "Path":"Order.Account"
+    },
+    {
+      "Id":"c2d4b3b2-2deb-43fc-a6d1-15214e5d92fc",
+      "SchemaName":"Account",
+      "Content":{
+        "Id":"c2d4b3b2-2deb-43fc-a6d1-15214e5d92fc",
+        "Name":"Product 1",
+        "Order":"492a3290-6a17-49b2-b916-2995ac193a3b"
+      },
+      "Path":"Order.[OrderProduct:Order]"
+    },
+    {
+      "Id":"c2d4b3b2-2deb-43fc-a6d1-15214e5d92f2",
+      "SchemaName":"Account",
+      "Content":{
+        "Id":"c2d4b3b2-2deb-43fc-a6d1-15214e5d92f2",
+        "Name":"Product 2",
+        "Order":"492a3290-6a17-49b2-b916-2995ac193a3b"
+      },
+      "Path":"Order.[OrderProduct:Order]"
+    },
+    {
+      "Id":"c2d4b3b2-2deb-43fc-a6d1-15214e5d92f3",
+      "SchemaName":"Account",
+      "Content":{
+        "Id":"c2d4b3b2-2deb-43fc-a6d1-15214e5d92f3",
+        "Name":"Product 2",
+        "Order":"492a3290-6a17-49b2-b916-2995ac193a3b"
+      },
+      "Path":"Order.[OrderProduct:Order]"
+    }
+  ]
+}

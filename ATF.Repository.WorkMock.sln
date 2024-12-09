@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATF.Repository.WorkMock", "ATF.Repository.WorkMock\ATF.Repository.WorkMock.csproj", "{53634CC2-0CFC-4A2F-9ADD-150F2C368C81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATF.Repository.WorkMock.UnitTests", "ATF.Repository.WorkMock.UnitTests\ATF.Repository.WorkMock.UnitTests.csproj", "{69C0AF21-EF8E-4C5F-B8D4-BE09922AF2AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53634CC2-0CFC-4A2F-9ADD-150F2C368C81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53634CC2-0CFC-4A2F-9ADD-150F2C368C81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53634CC2-0CFC-4A2F-9ADD-150F2C368C81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53634CC2-0CFC-4A2F-9ADD-150F2C368C81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69C0AF21-EF8E-4C5F-B8D4-BE09922AF2AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69C0AF21-EF8E-4C5F-B8D4-BE09922AF2AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69C0AF21-EF8E-4C5F-B8D4-BE09922AF2AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69C0AF21-EF8E-4C5F-B8D4-BE09922AF2AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

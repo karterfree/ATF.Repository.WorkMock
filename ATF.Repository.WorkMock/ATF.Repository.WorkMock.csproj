@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <LangVersion>10</LangVersion>
+        <Title>ATF.Repository.WorkMock</Title>
+        <Authors>R.Bazarov</Authors>
+        <Copyright>Copyright ©2024</Copyright>
+        <PackageProjectUrl>https://github.com/karterfree/ATF.Repository.WorkMock</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/karterfree/ATF.Repository.WorkMock</RepositoryUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <AssemblyVersion>1.0.0</AssemblyVersion>
+        <FileVersion>1.0.0</FileVersion>
+        <Version>1.0.0</Version>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\repository\ATF.Repository.Mock\ATF.Repository.Mock.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="ATF.Repository.Mock" Version="2.0.2.10" />
+    </ItemGroup>
+
+</Project>
